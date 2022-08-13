@@ -95,6 +95,7 @@ for (let i = min; i <= max; i += 1){
 let totalSpent = 10000;
 let payment = 1200;
 let discount = 0;
+
 if (totalSpent >= 100 && totalSpent < 1000) {
   console.log('Бронзовий партнер, знижка 2%');
   discount = 0.02;

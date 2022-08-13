@@ -38,6 +38,7 @@ const string3 = 'Рекламна компанія #fatlivematter';
 
 console.log(string1.includes(blacklistedWord1));
 const normalizeSting2 = string2.toLowerCase();
+
 console.log(normalizeSting2.includes(blacklistedWord2));
 
 // ====================================

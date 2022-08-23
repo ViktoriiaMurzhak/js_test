@@ -1,27 +1,27 @@
 // ЗШИВАННЯ СТРОК
 
-const firstName = 'Vika';
-const lastName = 'Murzhak';
+// const firstName = 'Vika';
+// const lastName = 'Murzhak';
 // const fullName = firstName + ' ' + lastName;
-const fullName = `${firstName} ${lastName}`;
+// const fullName = `${firstName} ${lastName}`;
 
 // console.log(fullName);
 
-const room = 421;
-const typeRoom = 'VIP';
+// const room = 421;
+// const typeRoom = 'VIP';
 
 // const welcomeMsg = 'Гість' + ' ' + fullName + ' ' + 'заселяється в ' + typeRoom + ' номер ' + room;
 
-const welcomeMsg = `Гість ${fullName} заселяється в ${typeRoom} номер ${room}`;
+// const welcomeMsg = `Гість ${fullName} заселяється в ${typeRoom} номер ${room}`;
 
-console.log(welcomeMsg);
+// console.log(welcomeMsg);
 
 // ====================================
 // ====================================
 // Нормалізація з методом toLowerCase() - всі букви в нижньому регістрі
 
-let brand = 'SamSunG';
-brand = brand.toLowerCase();
+// let brand = 'SamSunG';
+// brand = brand.toLowerCase();
 
 // console.log(brand);
 
@@ -29,89 +29,89 @@ brand = brand.toLowerCase();
 // ====================================
 // Пошук в рядку з методом includes()
 
-const blacklistedWord1 = 'спам';
-const blacklistedWord2 = 'розпродаж';
+// const blacklistedWord1 = 'спам';
+// const blacklistedWord2 = 'розпродаж';
 
-const string1 = 'Привіт, я принц абдур, це не спам, пропоную тобі мільйон';
-const string2 = 'Найбільший розпродаж цього тижня, не пропустіть';
-const string3 = 'Рекламна компанія #fatlivematter';
+// const string1 = 'Привіт, я принц абдур, це не спам, пропоную тобі мільйон';
+// const string2 = 'Найбільший розпродаж цього тижня, не пропустіть';
+// const string3 = 'Рекламна компанія #fatlivematter';
 
-console.log(string1.includes(blacklistedWord1));
-const normalizeSting2 = string2.toLowerCase();
+// console.log(string1.includes(blacklistedWord1));
+// const normalizeSting2 = string2.toLowerCase();
 
-console.log(normalizeSting2.includes(blacklistedWord2));
+// console.log(normalizeSting2.includes(blacklistedWord2));
 
 // ====================================
 // ====================================
 // Оператори порівняння
 
 // console.log(15 < 16);
-console.log(15 === 15);
+// console.log(15 === 15);
 
 // ====================================
 // ====================================
 // Логічне "і" оператор && - зупиняється на першій брехні - повертає те, на чому запнулося (брехня) або останній операнд
 
-console.log(5 && 6 && 0 && 'hello');
+// console.log(5 && 6 && 0 && 'hello');
 
 // ====================================
 // ====================================
 // Логічне "або" оператор || - зупиняється на першій правді або останній операнд
 
-console.log(5 || 6 || 0 || 'hello');
+// console.log(5 || 6 || 0 || 'hello');
 
 // ====================================
 // ====================================
 // Логічне "НЕ" оператор ! - робить інверсію правда > брешні і брехня > правди
 
-console.log(!false);
-console.log(!'hello');
+// console.log(!false);
+// console.log(!'hello');
 
 // ====================================
 // ====================================
 // оператор ветвления if
 
-if (0) {
-  console.log('вввиповниться, якщо в іф буде тру, якщо буде фолс то виповниться нижче');
-}
+// if (0) {
+//   console.log('вввиповниться, якщо в іф буде тру, якщо буде фолс то виповниться нижче');
+// }
 // якщо іте і те тру, виповняється обива
-console.log('виповняєтьсяяяя');
+// console.log('виповняєтьсяяяя');
 
 // ====================================
 // ====================================
 // оператор ветвления if...else
-if (0) {
-  console.log('виповниться, якщо в іф буде тру, якщо буде фолс то виповниться нижче');
-}
+// if (0) {
+//   console.log('виповниться, якщо в іф буде тру, якщо буде фолс то виповниться нижче');
+// }
 // якщо перше тру, то друге не виконається
-else {
-  console.log('виповняється');
-}
+// else {
+//   console.log('виповняється');
+// }
 
 // ====================================
 // ====================================
 // оператор ветвления else...if
 
-const salary = 3001;
+// const salary = 3001;
 
-if (salary < 500) {
-  console.log('level 1');
-}
-else if (salary > 500 && salary <= 1500) {
-  console.log('level 2');
-}
-else if (salary > 1500 && salary < 3000) {
-  console.log('level 3');
-}
-else {
-  console.log('level 4')
-}
+// if (salary < 500) {
+//   console.log('level 1');
+// }
+// else if (salary > 500 && salary <= 1500) {
+//   console.log('level 2');
+// }
+// else if (salary > 1500 && salary < 3000) {
+//   console.log('level 3');
+// }
+// else {
+//   console.log('level 4')
+// }
 
 // ====================================
 // ====================================
 // Тернарний оператор
 
-const balance = 1000;
+// const balance = 1000;
 
 // let message;
 
@@ -122,9 +122,9 @@ const balance = 1000;
 //   message = 'Негативний баланс';
 // }
 
-const message = balance >= 0 ? 'Позитивний баланс' : 'Негативний баланс';
+// const message = balance >= 0 ? 'Позитивний баланс' : 'Негативний баланс';
 
-console.log(message);
+// console.log(message);
 
  
 
